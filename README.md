@@ -5,9 +5,9 @@ Projet Streamlit — Visualisation de la cinétique des anticorps
 Ce projet vise à simuler et visualiser la réponse immunitaire humorale après l'administration de vecteurs viraux AAV.
 
 ## Fonctionnalités de l'application
-Choix du sérotype : AAV1, AAV9
-Jour de 2e injection : Intervalle entre la 1ère et la 2de administration
-Traitement peptidase : Agit sur la mémoire immunitaire
+- Choix du sérotype : AAV1, AAV9
+- Jour de 2e injection : Intervalle entre la 1ère et la 2de administration
+- Traitement peptidase : Agit sur la mémoire immunitaire
 
 Le graphe affiche la cinétique des anticorps dans le sang en fonction du temps.
 

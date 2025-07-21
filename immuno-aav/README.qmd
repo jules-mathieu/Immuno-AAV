@@ -1,0 +1,39 @@
+# Simulation de la réponse immunitaire aux vecteurs AAV
+Projet Streamlit — Visualisation de la cinétique des anticorps
+
+## Objectif
+Ce projet vise à simuler et visualiser la réponse immunitaire humorale après l'administration de vecteurs viraux AAV.
+
+## Fonctionnalités de l'application
+Choix du sérotype : AAV1, AAV9
+Jour de 2e injection : Intervalle entre la 1ère et la 2de administration
+Traitement peptidase : Agit sur la mémoire immunitaire
+
+Le graphe affiche la cinétique des anticorps dans le sang en fonction du temps.
+
+## Résultats simulés
+La réponse primaire affiche un pic (autour de J10).
+
+La réponse secondaire est :
+
+- Amplifiée et plus rapide sans traitement
+
+- Atténuée avec traitement peptidase
+
+- Le type d’AAV modifie l’amplitude de la réponse
+
+Un bruit biologique (~5%) est ajouté pour simuler la variabilité entre individus.
+
+## Lancer l'application
+streamlit run app.py   
+
+## Évolutions possibles
+
+Comparaison multi-vecteurs
+
+Animation de la réponse en temps réel
+
+Modélisation de la réponse cellulaire
+
+
+
